@@ -2,19 +2,22 @@
 <html>
 <head>
 <title>IETE BIT MESRA</title>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/cssfile.css">
 </head>
-<body id="mainPage">
+<!-- The scrollable area -->
+<body id="mainPage" data-spy="scroll" data-target=".navbar">
 
 <!-- Navbar -->
-<div class="w3-top">
+<div class="navbar navbar-default navbar-fixed-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
-  <a href="#" class="w3-bar-item w3-button w3-teal hvr-grow"><i class="fa fa-home w3-margin-right"></i>HOME</a>
+  <a href="#home" class="w3-bar-item w3-button w3-teal hvr-grow"><i class="fa fa-home w3-margin-right"></i>HOME</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white hvr-grow">IETE MEMBERS</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white hvr-grow">WORK</a>
   <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-hover-white hvr-grow">EVENTS</a>
@@ -32,14 +35,14 @@
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
     <a href="#team" class="w3-bar-item w3-button hvr-grow">IETE MEMBERS</a>
-    <a href="#work" class="w3-bar-item w3-button hvr-grow">WORK</a>  
+    <a href="#work" class="w3-bar-item w3-button hvr-grow">WORK</a>
     <a href="#contact" class="w3-bar-item w3-button hvr-grow">EVENTS</a>
     <a href="#events" class="w3-bar-item w3-button hvr-grow">CONTACT</a>
   </div>
 </div>
 
 <!-- Image Header -->
-<div class="w3-display-container w3-animate-opacity">
+<div class="w3-display-container w3-animate-opacity" id="home">
   <img src="images/water.jpg" alt="water" style="width:100%;min-height:350px;max-height:600px;">
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="CAT">CAT</button>
