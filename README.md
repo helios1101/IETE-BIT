@@ -1,5 +1,5 @@
 # IETE-BIT
-Most probably the future website of IETE BIT Mesra
+Most probably the future website of IETE BIT Mesra :P
 
 ## Maintainers
 
